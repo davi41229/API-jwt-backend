@@ -21,7 +21,11 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
 #### API elixir  com phoenix ,autenticação jwt e banco  redis
 
 * comandos
-* `mix deps.get` ==> instalra dependencias
+* `mix phx.server` ==> rodar server
+* `mix deps.get` ==> instalar dependencias
 * `iex -S mix phx.server` ==> rodar server dentro do compilador elixir
 
 * arquivo dev.exs ==> variaveis de ambiente
+* elixir ~> 1.15.4, phoenix ~> 1.5.9, erlang ~> OPT/26 
+
+* bibliotecas extras: joken ~>2.6, argon2_elixir ~>3.1,redix ~> 1.2
